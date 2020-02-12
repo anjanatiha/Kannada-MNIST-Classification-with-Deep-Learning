@@ -16,9 +16,9 @@ Kannada is a language spoken predominantly by people of Karnataka in southwester
 
 #### Code
 <pre>
-GitHub Link      : <a href=https://github.com/anjanatiha/Kannada-MNIST-Classification-with-Deep-Learning(GitHub)</a>
-GitLab Link      : <a href=https://gitlab.com/anjanatiha/Kannada-MNIST-Classification-with-Deep-Learning(GitLab)</a>
-Kaggle Notebook  : <a href=https://www.kaggle.com/anjanatiha/kannada-mnist-classification-with-deep-learning</a>
+GitHub Link      : <a href=https://github.com/anjanatiha/Kannada-MNIST-Classification-with-Deep-Learning>(GitHub)</a>
+GitLab Link      : <a href=https://gitlab.com/anjanatiha/Kannada-MNIST-Classification-with-Deep-Learning>(GitLab)</a>
+Kaggle Notebook  : <a href=https://www.kaggle.com/anjanatiha/kannada-mnist-classification-with-deep-learning></a>
 Portfolio        : <a href=https://anjanatiha.wixsite.com/website>Anjana Tiha's Portfolio</a>
 </pre>
 
