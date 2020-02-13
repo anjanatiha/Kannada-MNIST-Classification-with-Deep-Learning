@@ -30,8 +30,6 @@ Dataset Link     : <a href=https://www.kaggle.com/c/Kannada-MNIST>Kannada-MNIST 
                  
 Original Paper   : <a href=https://arxiv.org/abs/1908.01242>Kannada-MNIST: A new handwritten digits dataset for the Kannada language</a> 
                    Authors: Vinay Uday Prabhu 
-                   JAMA (The Journal of the American Medical Association)
-                   <cite>Ehteshami Bejnordi B, Veta M, Johannes van Diest P, et al. Diagnostic Assessment of Deep Learning Algorithms for Detection of Lymph Node Metastases in Women With Breast Cancer. JAMA. 2017;318(22):2199–2210. doi:10.1001/jama.2017.14585</cite>
 </pre>
 
 ### Dataset Details
@@ -42,46 +40,68 @@ Number of Class         : 10
 
 | Dataset Subtype | Number of Image | Size of Images (GB/Gigabyte) |
 | :-------------- | --------------: | ---------------------------: |
-| **Total**       | 40,000          |                       |
-| **Training**    | 34,000          |                       |
-| **Validation**  | 6,000           |                       |
+| **Total**       | 40,000          | 12 MB                        |
+| **Training**    | 34,000          | 10.2 MB                      |
+| **Validation**  | 6,000           | 1.8 MB                       |
 | **Testing**     | 44,004          |                       |
 
 
 ### Model and Training Prameters
 | Current Parameters   | Value                                                       |
 | :------------------- | ----------------------------------------------------------: |
-| **Base Model**       | Custom CNN                                                |
+| **Base Model**       | Custom CNN                                                  |
 | **Optimizers**       | Adam                                                        |
 | **Loss Function**    | Categorical Crossentropy                                    |
 | **Learning Rate**    | 0.0001                                                      |
 | **Batch Size**       | 128                                                         |                                     
-| **Number of Epochs** | 27                                                           |
-| **Training Time**    | 4.5 hour (270 min)                                          |
+| **Number of Epochs** | 27                                                          |
+| **Training Time**    | 9 min                                                       |
 
 
 ### Model Performance Metrics (Prediction/ Recognition / Classification)
 | Dataset              | Training       | Validation    | Test      |                                 
 | :------------------- | -------------: | ------------: | --------: |
 | **Accuracy**         | 99.71%         | 98.74%        | 93.72%    |
-| **Loss**             | 0.0234         | 0.0219        | 0.30      |
-| **Precision**        | ---            | ---           | 89.02%    |
-| **Recall**           | ---            | ---           | 90.80%    |
-| **Roc-Auc**          | ---            | ---           | 91.59%    |
+| **Loss**             | 0.0234         | 0.0219        | ---       |
+| **Precision**        | ---            | ---           | ---       |
+| **Recall**           | ---            | ---           | ---       |
+| **Roc-Auc**          | ---            | ---           | ---       |
 
 
 ### Other Experimented Model and Training Prameters
 | Parameters (Experimented) | Value                                                  |
 | :------------------------ | -----------------------------------------------------: |
-| **Base Models**           | NashNet(NashNetLarge, NashNetMobile), InceptionV3      |
-| **Optimizers**            | Adam, SGD                                              |
-| **Loss Function**         | Categorical Crossentropy, Binary Crossentropy          |
-| **Learning Rate**         | 0.0001, 0.00001, 0.000001, 0.0000001                   |
-| **Batch Size**            | 16, 32, 64, 128, 256                                   |                                     
-| **Number of Epochs**      | 2, 4, 6, 10, 30, 50, 100                               |
-| **Training Time**         | 4.5 hour (270 min), 1 day (24 hours), 2 days (24 hours)|
+| **Base Models**           | Custom Convolutional Neural Network wwith 888K params  |
+| **Optimizers**            | Adam                                                   |
+| **Loss Function**         | Categorical Crossentropy                               |
+| **Learning Rate**         | 0.01, 0.001, 0.0001                                    |
+| **Batch Size**            | 32, 64, 96, 128, 256                                   |                                     
+| **Number of Epochs**      | 27 - 100                                               |
+| **Training Time**         | 9min                                                   |
 
 
+### Hardware
+| Parameters (Experimented) | Value                                                  |
+| :------------------------ | -----------------------------------------------------: |
+| **Platform**              | Cloud/Online                                           |
+| **Platform Name**         | Kaggle Notebook                                        |
+| **GPU Brand**             | NVidea                                                 |
+| **Model Name**            | Tesla P100-PCIE-16GB                                   |
+| **Memory**                | 16 GB                                                  |
+| **Number of Core**        | 2                                                      |
+
+
+##### Class Distribution: 
+<kbd>
+<img src=https://github.com/anjanatiha/Histopathologic-Cancer-Detection/blob/master/demo/images/class-dist.png>
+</kbd>
+
+##### Model Performance: 
+<kbd>
+<img src=https://github.com/anjanatiha/Histopathologic-Cancer-Detection/blob/master/demo/images/hist.png>
+</kbd>
+
+<!--
 ##### Sample Output: 
 <kbd>
 <img src=https://github.com/anjanatiha/Histopathologic-Cancer-Detection/blob/master/demo/sample/sample.png>
@@ -95,17 +115,18 @@ Number of Class         : 10
 <kbd>
 <img src=https://github.com/anjanatiha/Histopathologic-Cancer-Detection/blob/master/demo/report/CM.png alt="Confusion Matrix" width=800px height=600px>
 </kbd>
+-->
 
 #### Tools / Libraries
 <pre>
 Languages               : Python
-Tools/IDE               : Anaconda
-Libraries               : Keras, TensorFlow, Inception, ImageNet
+Tools/IDE               : Kaggle
+Libraries               : Keras
 </pre>
 
 #### Dates
 <pre>
-Duration                : November 2018 - Current
-Current Version         : v1.0.0.3
-Last Update             : 12.24.2018
+Duration                : February 2020 
+Current Version         : v1.0.0.10
+Last Update             : 02.12.2020
 </pre>
