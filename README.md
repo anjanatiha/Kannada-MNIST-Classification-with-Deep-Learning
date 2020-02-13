@@ -93,12 +93,12 @@ Number of Class         : 10
 
 ##### Class Distribution: 
 <kbd>
-<img src=https://github.com/anjanatiha/Histopathologic-Cancer-Detection/blob/master/demo/images/class-dist.png>
+<img src=https://github.com/anjanatiha/Kannada-MNIST-Classification-with-Deep-Learning/blob/master/demo/images/class-dist.png>
 </kbd>
 
 ##### Model Performance: 
 <kbd>
-<img src=https://github.com/anjanatiha/Histopathologic-Cancer-Detection/blob/master/demo/images/hist.png>
+<img src=https://github.com/anjanatiha/Kannada-MNIST-Classification-with-Deep-Learning/blob/master/demo/report/hist.png>
 </kbd>
 
 <!--
