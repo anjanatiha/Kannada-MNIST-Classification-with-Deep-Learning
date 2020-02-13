@@ -91,12 +91,13 @@ Number of Class         : 10
 | **Number of Core**        | 2                                                      |
 
 
-##### Class Distribution: 
+### Visualization
+#### Class Distribution: 
 <kbd>
 <img src=https://github.com/anjanatiha/Kannada-MNIST-Classification-with-Deep-Learning/blob/master/demo/images/class-dist.png>
 </kbd>
 
-##### Model Performance: 
+#### Model Performance: 
 <kbd>
 <img src=https://github.com/anjanatiha/Kannada-MNIST-Classification-with-Deep-Learning/blob/master/demo/report/hist.png>
 </kbd>
